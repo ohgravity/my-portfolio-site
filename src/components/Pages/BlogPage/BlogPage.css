@@ -1,0 +1,162 @@
+.blogpage-wrapper {
+  background: #def8f6;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  padding: 4em 0 4em 0;
+}
+
+.blogpage-wrapper h3 {
+  font-size: 1.25em;
+}
+
+.posts-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  max-width: 75%;
+}
+
+.post-wrapper {
+  margin-bottom: 4em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius: 10%;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+  align-content: center;
+  filter: drop-shadow(0 0 8px #9badac);
+}
+
+.post-text-wrapper {
+  margin-top: 3em;
+  margin-bottom: 4em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius: 10%;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+  align-content: center;
+}
+
+article {
+  background: #ffffff;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+.post-img-wrapper {
+  max-width: 75%;
+  text-align: center;
+}
+
+article img {
+  display: block;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+article h2 {
+  font-family: "Oxygen Mono", monospace;
+  font-size: 2.5em;
+  display: inline-block;
+  padding: 2em 1em 0.5em 1em;
+  text-align: center;
+}
+
+article h4 {
+  font-size: 1.25em;
+  font-family: "Oxygen Mono", monospace;
+  padding: 1em;
+}
+
+article p {
+  max-width: 80%;
+  text-indent: 3em;
+  margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 60em) {
+  .blogpage-wrapper h3 {
+    font-size: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  .posts-wrapper {
+    margin-top: -3.5em;
+    margin-bottom: -3.5em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    max-width: 90%;
+  }
+
+  .post-wrapper {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-bottom: 4em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 0;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .post-img-wrapper {
+    max-width: 90%;
+    text-align: center;
+  }
+
+  .post-text-wrapper {
+    font-size: 0.8em;
+    line-height: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 0;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    align-content: center;
+  }
+
+  article h2 {
+    font-family: "Oxygen Mono", monospace;
+    font-size: 1.5em;
+    display: inline-block;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    text-align: center;
+  }
+
+  article h4 {
+    font-size: 0.75em;
+    font-family: "Oxygen Mono", monospace;
+    padding: 1em;
+  }
+
+  article p {
+    /* margin-top: 2em; */
+    margin-bottom: 1em;
+    max-width: 80%;
+    text-indent: 2em;
+  }
+}

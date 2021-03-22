@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "../src/App.css";
+import { Redirect, Switch, Route, BrowserRouter } from "react-router-dom";
+import LandingPage from "./components/Pages/LandingPage/LandingPage";
+import BlogPage from "./components/Pages/BlogPage/BlogPage";
+import PageNotFound from "./components/Pages/PageNotFound/PageNotFound";
+import ScrollToTop from "./components/Molecules/ScrollToTop";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <BrowserRouter>
+        <ScrollToTop />
+        <Switch>
+          <Route exact path="/blogpage" component={BlogPage} />
+          <Route exact path="/" component={LandingPage} />
+          <Route exact path="/404" component={PageNotFound} />
+          <Redirect to="/404" />
+        </Switch>
+      </BrowserRouter>
+    );
+  }
 }
 
 export default App;

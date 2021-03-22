@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* font-family: "Chivo", Sans-Serif; */
+  font-family: "Oxygen Mono", monospace;
+  font-size: 20px;
+  line-height: 2.5rem;
+}
