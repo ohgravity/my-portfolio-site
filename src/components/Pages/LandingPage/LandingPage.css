@@ -209,6 +209,14 @@ h3 {
   padding-top: 2em;
   margin-top: 2em;
   filter: drop-shadow(0 0 8px #9badac);
+  transition: 1s ease;
+}
+
+.project-img-title:hover {
+  -webkit-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95);
+  transition: 0.3s ease;
 }
 
 .project-img-title img {
