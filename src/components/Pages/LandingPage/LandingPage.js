@@ -32,7 +32,7 @@ const About = () => {
               or listening to podcasts about anything futuristic, practicing
               yoga, and learning Japanese and Thai.
             </p>
-            <p class="scroll-down arrow">
+            <p className="scroll-down arrow">
               <span></span>
             </p>
           </div>
@@ -136,7 +136,10 @@ const Blog = () => {
         <div className="col col-right">
           <Link
             to="/blogpage"
-            style={{ textDecoration: "none", color: "black" }}
+            style={{
+              textDecoration: "none",
+              color: "black",
+            }}
           >
             <PostPreview aria-label="link to blog" />
           </Link>
