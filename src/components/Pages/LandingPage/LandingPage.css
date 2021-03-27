@@ -591,6 +591,7 @@ label {
     align-items: stretch;
     align-content: center;
     justify-content: center;
+    align-items: center;
     height: inherit;
     /* border: 1px solid red; */
   }
