@@ -397,7 +397,7 @@ label {
   margin-top: 0.5em;
   font-size: 1.2em;
   width: 6em;
-  height: 7em;
+  height: 7vh;
   background: #1fb1bb;
   color: #fff;
   padding: 0;
@@ -590,6 +590,7 @@ label {
     flex-wrap: wrap;
     align-items: stretch;
     align-content: center;
+    justify-content: center;
     height: inherit;
     /* border: 1px solid red; */
   }
