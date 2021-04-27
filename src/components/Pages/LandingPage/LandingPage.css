@@ -163,7 +163,7 @@ h3 {
 }
 
 .about img {
-  max-width: 100%;
+  max-width: 70%;
   display: inline-block;
   border-radius: 10%;
   justify-content: center;
@@ -288,7 +288,7 @@ h3 {
 
 .blog img {
   border: 0;
-  max-width: 100%;
+  max-width: 80%;
   vertical-align: middle;
   display: inline-block;
   border-radius: 10%;
@@ -411,6 +411,10 @@ label {
   color: #1fb1bb;
 }
 
+small {
+  text-align: center;
+}
+
 /* ************** */
 /* MEDIA QUERIES NEED TO BE AT THE END OF THE FILE */
 /* ************** */
@@ -418,7 +422,14 @@ label {
 @media only screen and (max-width: 120em) {
   .img-wrapper {
     max-width: 80%;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+  }
+
+  .about .img-wrapper {
+    max-width: 80%;
+    display: flex;
     justify-content: center;
     /* border: 1px solid red; */
   }
@@ -470,7 +481,7 @@ label {
   }
 
   .about img {
-    max-width: 100%;
+    max-width: 90%;
     display: inline-block;
     border-radius: 10%;
     justify-content: center;

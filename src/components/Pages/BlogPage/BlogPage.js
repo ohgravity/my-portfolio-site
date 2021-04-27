@@ -18,9 +18,7 @@ function PrintBlogPosts() {
           />
         </div>
         <article key={post.id} className="post-text-wrapper">
-          {post.body.split("@").map((paragraph) => {
-            return <p>{paragraph}</p>;
-          })}
+          {post.body}
         </article>
       </article>
     );
@@ -31,14 +29,14 @@ function BlogPage() {
   return (
     <>
       <div className="blogpage-wrapper">
-        <Link to="/">
-          <h3>Back Home</h3>
+        <Link to="/" style={{ color: "black" }}>
+          <h3>← Back Home</h3>
         </Link>
         <div className="posts-wrapper">
           <PrintBlogPosts />
         </div>
-        <Link to="/">
-          <h3>Back Home</h3>
+        <Link to="/" style={{ color: "black" }}>
+          <h3>← Back Home</h3>
         </Link>
       </div>
     </>

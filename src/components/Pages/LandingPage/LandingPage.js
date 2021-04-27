@@ -22,15 +22,14 @@ const About = () => {
             </h1>
             <h3>Web Developer</h3>
             <p>
-              Hi! Welcome to my web development portfolio site. I mainly code in
-              JavaScript (React), but have experience with many adjacent
-              technologies. As a predominantly self-taught programmer, I am keen
-              to learn whatever is necessary to get the job done.
+              I mainly code in JavaScript (React), but have experience with many
+              adjacent technologies. As a predominantly self-taught programmer,
+              I am keen to learn and adaptable to change.
             </p>
             <p>
-              In my free time, I enjoy producing electronic music, reading up on
-              or listening to podcasts about anything futuristic, practicing
-              yoga, and learning Japanese and Thai.
+              In my free time, I enjoy creating electronic music, taking in
+              futuristic reads and podcasts, doing the easiest of easy yoga, and
+              learning Japanese and Thai.
             </p>
             <p className="scroll-down arrow">
               <span></span>
@@ -39,7 +38,7 @@ const About = () => {
         </div>
         <div className="col col-right">
           <div className="img-wrapper">
-            <img src="https://i.imgur.com/HSC5G52.jpg" alt="photo of Sara" />
+            <img src="https://i.imgur.com/GRNeOmL.jpg" alt="photo of Sara" />
             {/* <img src="https://i.imgur.com/plNb29g.jpg" alt="me" /> */}
           </div>
         </div>
@@ -75,8 +74,8 @@ const Projects = () => {
               </div>
               <div className="text-wrapper">
                 <p>
-                  A fictional campground booking tool, with user authentication
-                  and CRUD capability.
+                  Fictional campground review aggregator, featuring user
+                  authentication, authorization, and CRUD capability.
                 </p>
               </div>
             </div>
@@ -135,7 +134,7 @@ const Blog = () => {
         </div>
         <div className="col col-right">
           <Link
-            to="/blogpage"
+            to="/blog"
             style={{
               textDecoration: "none",
               color: "black",
@@ -160,8 +159,8 @@ const Contact = () => {
               <strong>Get in Touch...</strong>
             </h2>
             <p>
-              with any questions or feedback. Send a message here, or check out
-              my social media links below. Don't be shy! :)
+              with any questions or feedback. Send a message here, or through my
+              social media links below.
             </p>
             <div className="social-media-wrap">
               <div className="social-icons">

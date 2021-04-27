@@ -12,7 +12,7 @@ class App extends Component {
       <BrowserRouter>
         <ScrollToTop />
         <Switch>
-          <Route exact path="/blogpage" component={BlogPage} />
+          <Route exact path="/blog" component={BlogPage} />
           <Route exact path="/" component={LandingPage} />
           <Route exact path="/404" component={PageNotFound} />
           <Redirect to="/404" />
