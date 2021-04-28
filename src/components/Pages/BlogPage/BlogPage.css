@@ -20,6 +20,7 @@
   align-content: center;
   text-align: center;
   max-width: 75%;
+  margin-top: 4em;
 }
 
 .post-wrapper {
@@ -48,11 +49,11 @@
   align-content: center;
 }
 
-article {
+.posts-wrapper article {
   background: #272c2b;
   color: #def8f6;
-  margin-top: 4em;
-  margin-bottom: 4em;
+  /* margin-top: 4em; */
+  /* margin-bottom: 4em; */
 }
 
 .post-img-wrapper {
@@ -60,9 +61,10 @@ article {
   text-align: center;
 }
 
-article img {
+.posts-wrapper article img {
   display: block;
-  margin: 0 auto;
+  margin: 2em auto;
+  justify-content: center;
   max-width: 70%;
 }
 
@@ -87,6 +89,10 @@ article p {
   margin-bottom: 1em;
 }
 
+article a {
+  color: lightpink;
+}
+
 p li {
   list-style-position: inside;
   margin-left: 3em;
@@ -97,7 +103,16 @@ p ul {
   margin-bottom: 1em;
 }
 
-@media only screen and (max-width: 60em) {
+iframe {
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+@media only screen and (max-width: 120em) {
+}
+
+@media only screen and (max-width: 70em) {
   .blogpage-wrapper h3 {
     font-size: 1em;
     margin-top: 1em;
@@ -150,7 +165,7 @@ p ul {
     align-content: center;
   }
 
-  article h2 {
+  .posts-wrapper article h2 {
     font-family: "Oxygen Mono", monospace;
     font-size: 1.5em;
     display: inline-block;
@@ -159,17 +174,125 @@ p ul {
     text-align: center;
   }
 
-  article h4 {
+  .posts-wrapper article h4 {
     font-size: 0.75em;
     font-family: "Oxygen Mono", monospace;
     padding: 1em;
   }
 
-  article p {
+  .posts-wrapper article p {
     /* margin-top: 2em; */
     margin-bottom: 1em;
     max-width: 80%;
     text-indent: 2em;
     text-align: left;
   }
+}
+
+@media only screen and (max-width: 40em) {
+  a {
+    display: block;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .blogpage-wrapper h3 {
+    font-size: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  .posts-wrapper {
+    margin-top: -3.5em;
+    margin-bottom: -3.5em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    max-width: 95%;
+  }
+
+  .post-wrapper {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-bottom: 4em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* border-radius: 0; */
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    align-content: center;
+    max-width: 100%;
+  }
+
+  .post-text-wrapper {
+    font-size: 0.8em;
+    line-height: 1.25em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* border-radius: 0; */
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    align-content: center;
+    max-width: 100%;
+  }
+
+  .posts-wrapper article p {
+    /* margin-top: 2em; */
+    margin-bottom: 1em;
+    max-width: 90%;
+    text-indent: 2em;
+    text-align: left;
+    font-size: 15px;
+  }
+
+  .posts-wrapper article h2 {
+    font-family: "Oxygen Mono", monospace;
+    font-size: 1em;
+    display: inline-block;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    text-align: center;
+  }
+
+  .posts-wrapper article h4 {
+    font-size: 0.6em;
+    font-family: "Oxygen Mono", monospace;
+    padding: 1em;
+  }
+
+  .posts-wrapper p li {
+    list-style-position: inside;
+    margin-left: 1em;
+  }
+
+  .post-img-wrapper {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .posts-wrapper article img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    max-width: 85%;
+    justify-content: center;
+  }
+  .posts-wrapper iframe {
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 1em;
+    max-width: 85%;
+  }
+}
+
+@media screen and (max-height: 790px) and (orientation: landscape) {
 }

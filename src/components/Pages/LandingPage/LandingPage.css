@@ -145,6 +145,7 @@ h3 {
   max-width: 80%;
   display: flex;
   justify-content: center;
+  align-items: flex-start;
   /* border: 1px solid red; */
 }
 
@@ -475,7 +476,7 @@ small {
 
   .img-wrapper {
     max-width: 80%;
-    display: inline-block;
+    display: flex;
     justify-content: center;
     /* border: 1px solid red; */
   }
@@ -604,6 +605,8 @@ small {
     justify-content: center;
     align-items: center;
     height: inherit;
+    line-height: 1.25em;
+    font-size: 17px;
     /* border: 1px solid red; */
   }
 
@@ -618,9 +621,16 @@ small {
     flex: 1 1 100%;
   }
 
+  .text-wrapper {
+    display: block;
+    max-width: 90%;
+    /* border: 1px solid orange; */
+    max-height: 90%;
+  }
+
   .img-wrapper {
     max-width: 80%;
-    display: inline-block;
+    display: flex;
     justify-content: center;
     /* border: 1px solid red; */
   }
@@ -696,13 +706,14 @@ small {
     text-align: center;
     font-size: 1.5em;
     padding-top: 0.5em;
+    line-height: 1.5em;
   }
 
   .form-container {
     display: flex;
     flex-direction: column;
     background: #def8f6;
-    border-radius: 10%;
+    border-radius: 5%;
     width: 80%;
     height: 80vh;
     /* border: 1px solid green; */
@@ -761,6 +772,14 @@ small {
   .blog .col {
     padding-top: 4em;
     padding-bottom: 4em;
+  }
+
+  .img-wrapper {
+    max-width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* border: 1px solid red; */
   }
 
   .form-container {

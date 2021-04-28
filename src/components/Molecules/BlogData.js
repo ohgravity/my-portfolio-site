@@ -15,15 +15,19 @@ function Post1Body() {
   return (
     <>
       <p>
-        I’ve recently finished my first round of #100DaysOfCode. The hashtag and
-        ethos behind it were created by Alex Kalloway (@ka11away). According to
-        the official website, 100daysofcode.com, the movement was set up to
-        encourage better coding habits. Although mainly popular with beginner
-        programmers, it’s certainly not limited to that group. The hashtag is
-        said to help build positive habits, but it really facilitates much more.
-        In the 100 non-consecutive days (...I’ll get to that in a bit) I spent
-        on the challenge, I gradually found other less apparent benefits along
-        the way, like little personal growth Easter eggs.{" "}
+        Hey you. Welcome to my first blog post. This one is about my experience
+        thus far of learning to code (more technical posts coming later). So it
+        makes sense to write about my first round of #100DaysOfCode. The Twitter
+        hashtag and ethos behind it were created by Alex Kalloway (@ka11away).
+        According to the official website,{" "}
+        <a href="https://www.100daysofcode.com/">100daysofcode.com</a>, the
+        movement was set up to encourage better coding habits. Although mainly
+        popular with beginner programmers, it’s certainly not limited to that
+        group. The hashtag is said to help build positive habits, but it really
+        facilitates much more. In the 100 non-consecutive days (...I’ll get to
+        that in a bit) I spent on the challenge, I gradually found other less
+        apparent benefits along the way, like little personal growth Easter
+        eggs.{" "}
       </p>
       <p>
         What exactly is 100 Days of Code, you ask? These are the two main rules:{" "}
@@ -59,7 +63,6 @@ function Post1Body() {
         networking. Oh.{" "}
       </p>
       <iframe
-        style={{ margin: "0 auto", justifyContent: "center", marginTop: "1em" }}
         width="560"
         height="315"
         src="https://www.youtube.com/embed/BtNNn88Gxfc"
@@ -135,22 +138,14 @@ function Post1Body() {
         schools. But it took an embarrassingly mind-blowing amount of effort to
         do so.{" "}
       </p>
-      <img
-        src="https://i.imgur.com/07QazzT.jpg"
-        style={{
-          margin: "2em auto",
-          justifyContent: "center",
-          maxWidth: "50%",
-        }}
-        alt="monkey puppet meme"
-      />
+      <img src="https://i.imgur.com/07QazzT.jpg" alt="monkey puppet meme" />
       <p>
         In regard to consistency and the 100DaysOfCode challenge, I saw some
         interesting things happening on my Twitter timeline. Many people, some
         of whom admitted having depression, shared that they “failed” the
         challenge by not tweeting every day, and forlornly asking others, “What
         now?” The flipside of that often touted benefit of this challenge,
-        “public accountability”, is that plenty of people get
+        public accountability, is that plenty of people get
         publicly...humiliated. Some of them straight up quit tweeting about
         programming at all (and maybe stopped programming?), which is just sad,
         and clearly not the intention of the movement’s founder.{" "}
@@ -163,16 +158,15 @@ function Post1Body() {
         monologue went on and on with negative self-talk: <br />
         <br />
         “See? You can’t do this. Look at Debra [not a real person], she's a
-        tweeting machine. Just like clockwork. Ugh. You think you could handle
-        being a dev?? <small>
-          [and permanently online for all eternity]
-        </small>{" "}
-        Huh-uh. Abandon ship!” <br />
+        TWEETING MACHINE. Just like CLOCKWORK. Ugh. You think you could HANDLE
+        being a dev?? <small>[mild hyperventilating]</small>" <br />
         <br />
-        But after I muzzled that little voice, I was left with my unshakeable
-        goal to become a developer, make a decent income while enjoying a
-        stimulating career, move into a nice place with lots of plants and a
-        record collection, and live happily ever after.{" "}
+        But after I muzzled that oddly sports coach-like voice, I was left with
+        my unshakeable goal to become a developer, make a higher income while
+        constantly learning new things, join the ranks of adult women who think
+        they realized their childhood dream of becoming Angelina Jolie's
+        character from Hackers in real life (we are legion), and call it a
+        career.{" "}
       </p>
       <p>
         There is simply no alternative. And that is what drives me forward.{" "}
@@ -191,7 +185,7 @@ function Post1Body() {
         bar for the next round of 100 Days. Smart people are always telling me,
         “Don’t race against the others. Race against yourself.” So that is what
         I’m doing. Yes, it’s important to try to meet others’ expectations since
-        no one is an island and we need to be interdependent, but it is equally
+        no one is an island and we need to work together, but it is equally
         important to know yourself and work in a way that will not lead to
         burn-out or otherwise harm your well-being. I believe this mindset is
         the most conducive to long-term growth and life satisfaction.
@@ -202,11 +196,6 @@ function Post1Body() {
       </p>
       <img
         src="https://i.imgur.com/pvH6nPd.jpg"
-        style={{
-          margin: "2em auto",
-          justifyContent: "center",
-          maxWidth: "50%",
-        }}
         alt="rick wallpaper message meme"
       />
       <p>
@@ -215,7 +204,8 @@ function Post1Body() {
         ground technically, including but not limited to:
         <ul>
           <li>
-            Making my first project from scratch (this site, soon to incorporate
+            Making my first project from scratch (
+            <a href="https://sarasegel.net/">this site</a>, soon to incorporate
             an API)
           </li>
           <li>Completing 2 full-stack apps </li>
@@ -243,21 +233,21 @@ function Post1Body() {
       </p>
       <p>
         Web development as a career offers so much – the possibility of career
-        advancement, being able to work from almost anywhere, and intellectual
-        stimulation, among other benefits. I understand that developers’ lives
-        aren't always rosy and there is tedious work to be done, but every day
-        I’m increasing my ability to think more abstractly, problem-solve, and
-        expand the virtual world I know – all from learning programming. I can’t
-        verify this in a quantifiable way (yet), but I would say that my general
-        problem-solving abilities in all areas of my life have improved as a
-        result of learning to code. There is just a unique satisfaction in
-        taking concrete actions and seeing a problem go away. We can’t always do
-        this in every area of our lives, but to the extent that we can, it’s an
-        amazing feeling. In the future, I’d love to spend more time on projects
-        tying together my love of music and my passion for accessibility, with
-        programming. But I’m also just a generally curious person and can get
-        interested in a variety of projects, especially if they work to solve
-        interesting problems.{" "}
+        advancement, being able to work from almost anywhere, and plenty of
+        cognitive stimulation, among other benefits. I understand that
+        developers’ lives aren't always rosy and there is tedious work to be
+        done, but every day I’m increasing my ability to think more abstractly,
+        problem-solve, and expand the virtual world I know – all from learning
+        programming. I can’t verify this in a quantifiable way (yet), but I
+        would say that my general problem-solving abilities in all areas of my
+        life have improved as a result of learning to code. There is just a
+        unique satisfaction in taking concrete actions and seeing a problem go
+        away. We can’t always do this in every area of our lives, but to the
+        extent that we can, it’s an amazing feeling. In the future, I’d love to
+        spend more time on projects tying together my love of music and my
+        passion for accessibility, with programming. But I can get interested in
+        a variety of projects, especially if they work to solve interesting
+        problems.{" "}
       </p>
       <p>
         Soon, I will start a second round of the 100 Days challenge. What will I
