@@ -22,14 +22,14 @@ const About = () => {
             </h1>
             <h3>Web Developer</h3>
             <p>
-              I mainly code in JavaScript (React), but have experience with many
-              adjacent technologies. As a predominantly self-taught programmer,
-              I am keen to learn and adaptable to change.
+              I mainly code in JavaScript (React), but have also dabbled in
+              Python. As a predominantly self-taught programmer, I am keen to
+              learn, and adaptable to change.
             </p>
             <p>
               In my free time, I enjoy creating electronic music, taking in
-              futuristic reads and podcasts, doing the easiest of easy yoga, and
-              learning Japanese and Thai.
+              futuristic reads and podcasts, practicing yoga, and improving my
+              Japanese language skills.
             </p>
             <p className="scroll-down arrow">
               <span></span>
@@ -38,7 +38,7 @@ const About = () => {
         </div>
         <div className="col col-right">
           <div className="img-wrapper">
-            <img src="https://i.imgur.com/GRNeOmL.jpg" alt="photo of Sara" />
+            <img src="https://i.imgur.com/ltcgUq2.jpg" alt="photo of Sara" />
             {/* <img src="https://i.imgur.com/plNb29g.jpg" alt="me" /> */}
           </div>
         </div>
@@ -265,6 +265,9 @@ const LandingPage = () => {
               <Contact />
             </li>
           </ul>
+          <footer>
+            <small>© 2021. Sara Segel. All rights reserved.</small>
+          </footer>
         </nav>
       </main>
     </>

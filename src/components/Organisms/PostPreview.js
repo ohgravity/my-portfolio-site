@@ -12,10 +12,10 @@ const PostPreview = () => {
         <h3>{posts[0].title}</h3>
         <p>
           <em>
-            I’ve recently finished my first round of #100DaysOfCode. The hashtag
-            and ethos behind it were created by Alex Kalloway (@ka11away).
-            According to the official website, 100daysofcode.com, the movement
-            was set up to encourage...{" "}
+            Hello there! Welcome to my first blog post. This one is about my
+            experience thus far of learning to code (more technical posts coming
+            later). So it makes sense to write about my first round of
+            #100DaysOfCode. The Twitter hashtag and ethos behind it were...{" "}
           </em>
           <br />
         </p>

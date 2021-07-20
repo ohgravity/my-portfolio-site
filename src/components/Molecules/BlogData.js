@@ -15,11 +15,11 @@ function Post1Body() {
   return (
     <>
       <p>
-        Hey you. Welcome to my first blog post. This one is about my experience
-        thus far of learning to code (more technical posts coming later). So it
-        makes sense to write about my first round of #100DaysOfCode. The Twitter
-        hashtag and ethos behind it were created by Alex Kalloway (@ka11away).
-        According to the official website,{" "}
+        Hello there! Welcome to my first blog post. This one is about my
+        experience thus far of learning to code (more technical posts coming
+        later). So it makes sense to write about my first round of
+        #100DaysOfCode. The Twitter hashtag and ethos behind it were created by
+        Alex Kalloway (@ka11away). According to the official website,{" "}
         <a href="https://www.100daysofcode.com/">100daysofcode.com</a>, the
         movement was set up to encourage better coding habits. Although mainly
         popular with beginner programmers, it’s certainly not limited to that
@@ -46,7 +46,7 @@ function Post1Body() {
         challenge helped me form good habits, but it has also helped with:
         <ul>
           <li>networking and job searching</li>
-          <li>getting over my fear of asking for help</li>
+          <li>getting over the difficulty of asking for help</li>
           <li>meeting people of a wide variety of tech and life backgrounds</li>
           <li>learning how other people THINK about programming</li>
         </ul>{" "}
@@ -93,25 +93,25 @@ function Post1Body() {
       </p>
       <p>
         Now I have about 250 Twitter followers. I don’t consider them an
-        “audience”. I’m not performing. I consider them a support network,
-        emotionally and technically. I’d like to strengthen that in the future
-        by engaging more with others’ tweets. There have been a few kind souls
-        who really tried to help when I tweeted about tech problems I was
-        having. And there are several conspicuous and much appreciated
-        individuals who are always sending out cheerful and supportive vibes,
-        which REALLY matters a lot when you’re self-teaching and learning in
-        isolation during a pandemic. And I love seeing how people from many
-        places around the world are learning to code! Just for a few examples: I
-        now have some inkling of what the dev job search situation is like in
-        India (extremely competitive!), what concerns programmers have in rural
-        North America (a lot of job opportunity variation over regions), and the
-        pros and cons of working in Silicon Valley (yes, there seem to be some
-        cons). Since I can read Japanese, I have also enjoyed hearing about how
-        some Japanese students are learning and what tools they use. One day, I
-        asked my followers for their thoughts on 100 Days of Code. I was met
-        with a fairly constant refrain of appreciation for the community support
-        the hashtag opens up. I think that we all come to feel that way, even if
-        we didn’t at first.{" "}
+        “audience”. I’m not performing. I consider them a learning source, and
+        they help me stay more objective when considering my own progress. I’d
+        like to strengthen that in the future by engaging more with others’
+        tweets. There have been a few awesome individuals who really tried to
+        help when I tweeted about tech problems I was having. And there are
+        several conspicuous and much appreciated devs who are always sending out
+        cheerful and supportive vibes, which REALLY matters a lot when you’re
+        self-teaching and learning in isolation during a pandemic. And I love
+        seeing how people from many places around the world are learning to
+        code! Just for a few examples: I now have some inkling of what the dev
+        job search situation is like in India (extremely competitive!), what
+        concerns programmers have in rural North America (a lot of job
+        opportunity variation over regions), and the pros and cons of working in
+        Silicon Valley (yes, there seem to be some cons). Since I can read
+        Japanese, I have also enjoyed hearing about how some Japanese students
+        are learning and what tools they use. One day, I asked my followers for
+        their thoughts on 100 Days of Code. I was met with a fairly constant
+        refrain of appreciation for the community support the hashtag opens up.
+        I think that we all come to feel that way, even if we didn’t at first.{" "}
       </p>
       <p>
         In short, the more I engaged with others, the more I learned, and the
@@ -120,79 +120,27 @@ function Post1Body() {
         direction, but I gradually discovered that people who tweet something
         personal from time to time tended to have more authentic and interesting
         interactions than I did. So I guess it pays to be semi-vulnerable to a
-        point (if it’s too much, I hit mute. Twitter can't cover anyone’s
-        therapy needs). I save my shit-posting for other social media platforms
-        where the only people seeing it are friends in real life who understand
-        my brand of humor. I’m pretty happy with how that’s working. Networking
-        on Twitter is not so scary, it seems.{" "}
+        point. Networking on Twitter is not so scary, it seems.{" "}
       </p>
       <p>
         Another rabbit hole I explored in this challenge was the habit-forming
         mechanism itself. You are supposed to code for at least an hour every
-        day and tweet about it. Dear readers, please raise your hand (even
-        though I can’t see) if consistency is a perennial challenge for you.
-        From ADHD, to depression, to tough home situations, or for other
-        reasons, consistency is just rather elusive for some people, including
-        me. Yes, I have managed in the past to be consistent enough to be a good
-        team member on a medical research study, and as a teacher in public
-        schools. But it took an embarrassingly mind-blowing amount of effort to
-        do so.{" "}
-      </p>
-      <img src="https://i.imgur.com/07QazzT.jpg" alt="monkey puppet meme" />
-      <p>
-        In regard to consistency and the 100DaysOfCode challenge, I saw some
-        interesting things happening on my Twitter timeline. Many people, some
-        of whom admitted having depression, shared that they “failed” the
-        challenge by not tweeting every day, and forlornly asking others, “What
-        now?” The flipside of that often touted benefit of this challenge,
-        public accountability, is that plenty of people get
-        publicly...humiliated. Some of them straight up quit tweeting about
-        programming at all (and maybe stopped programming?), which is just sad,
-        and clearly not the intention of the movement’s founder.{" "}
-      </p>
-      <p>
-        Here is my take on the situation. It has been an especially rough year,
-        as we all know. There were tons of times when I broke my tweeting
-        streak. A lot of days I had coded, but didn't think to tweet, since
-        Twitter hadn't grown on me (yet? umm). At first I panicked. My inner
-        monologue went on and on with negative self-talk: <br />
-        <br />
-        “See? You can’t do this. Look at Debra [not a real person], she's a
-        TWEETING MACHINE. Just like CLOCKWORK. Ugh. You think you could HANDLE
-        being a dev?? <small>[mild hyperventilating]</small>" <br />
-        <br />
-        But after I muzzled that oddly sports coach-like voice, I was left with
-        my unshakeable goal to become a developer, make a higher income while
-        constantly learning new things, join the ranks of adult women who think
-        they realized their childhood dream of becoming Angelina Jolie's
-        character from Hackers in real life (we are legion), and call it a
-        career.{" "}
-      </p>
-      <p>
-        There is simply no alternative. And that is what drives me forward.{" "}
-      </p>
-      <p>
-        So I didn’t tell anyone when I broke my streak. Why self-flagellate,
-        especially publicly, when it just drags you down more?{" "}
-      </p>
-      <p>
-        I just kept going, and tried to do better every time. There was no
-        drama, and I continued getting support from my awesome followers. And
-        what was the result? I have not been perfectly consistent, but my level
-        of consistency has very noticeably increased since starting the
-        challenge. I’m not satisfied, but the fact that I became stronger and
-        better able to work through difficult conditions means I am raising the
-        bar for the next round of 100 Days. Smart people are always telling me,
-        “Don’t race against the others. Race against yourself.” So that is what
-        I’m doing. Yes, it’s important to try to meet others’ expectations since
-        no one is an island and we need to work together, but it is equally
-        important to know yourself and work in a way that will not lead to
-        burn-out or otherwise harm your well-being. I believe this mindset is
-        the most conducive to long-term growth and life satisfaction.
-      </p>
-      <p>
-        In short: People can and should be allowed to progress without being
-        perfect.{" "}
+        day and tweet about it. It has been an especially rough year, as we all
+        know. There were many times when I broke my tweeting streak. A lot of
+        days I had coded, but didn't think to tweet, since Twitter hadn't grown
+        on me (yet? umm). At first I panicked. But then I just kept going, and
+        tried to do better every time. I continued getting support from my
+        awesome followers. And what was the result? My level of consistency has
+        very noticeably increased since starting the challenge. I’m not
+        satisfied yet, but the fact that I became stronger and better able to
+        work through difficult conditions means I am raising the bar for myself
+        in the future. Smart people are always telling me, “Don’t race against
+        the others. Race against yourself.” So that is what I’m doing. Yes, it’s
+        important to try to meet others’ expectations since no one is an island
+        and we need to work together, but it is equally important to know
+        yourself and work in a way that will not lead to burn-out or otherwise
+        harm your well-being. I believe this mindset is the most conducive to
+        long-term growth and life satisfaction.
       </p>
       <img
         src="https://i.imgur.com/pvH6nPd.jpg"
@@ -205,17 +153,25 @@ function Post1Body() {
         <ul>
           <li>
             Making my first project from scratch (
-            <a href="https://sarasegel.net/">this site</a>, soon to incorporate
-            an API)
+            <a href="https://sarasegel.net/">this site!</a>) which is a fully
+            responsive React app and takes accessibility into consideration (try
+            it on a screen reader!)
           </li>
-          <li>Completing 2 full-stack apps </li>
+          <li>
+            Completing 2 full-stack apps (in this site's Projects section)
+          </li>
           <li>
             Completing several other small projects with tutorial guidance
           </li>
-          <li>Contributing CSS support on a friend’s startup </li>
           <li>
-            Exploring my musical interests with a generative music project (blog
-            entry coming soon){" "}
+            Contributing CSS support on a friend’s startup (check out
+            https://populist.us/ !)
+          </li>
+          <li>
+            Exploring my musical interests with a generative music project (you
+            can see some of my generative projects at my{" "}
+            <a href="https://www.instagram.com/sara.segel/">instagram</a>{" "}
+            account).{" "}
           </li>
           <li>
             Developing with vanilla JavaScript, React, HTML, CSS, Styled
@@ -225,8 +181,8 @@ function Post1Body() {
         </ul>
         In the future, I will be writing more in-depth technical blog posts
         about what I am learning. But for now, I just can say that I am proud of
-        what I’ve done in these 100+ days, especially in pandemic isolation.
-        I’ve become a more patient, determined, and curious programmer through
+        what I’ve done in these 100 days, especially in pandemic isolation. I’ve
+        become a more patient, determined, and curious programmer through
         improved consistency and insight gained from observing other programmers
         I admire. Not to mention my increased capability to ask for help, and
         the wonderful responses I often received.{" "}
@@ -250,10 +206,12 @@ function Post1Body() {
         problems.{" "}
       </p>
       <p>
-        Soon, I will start a second round of the 100 Days challenge. What will I
-        change in the next round?{" "}
+        For now, I think I will take a bit of a Twitter break, as I want to
+        focus on other things. But at some point, I would like to start a second
+        round of the 100 Days challenge. What will I change in the next round?{" "}
         <ul>
-          <li>Set more concrete technical goals, improve time-management</li>
+          <li>Set more concrete technical goals</li>
+          <li>Get even better at time management</li>
           <li>
             Take a more holistic approach to habit formation: exercise,
             yoga/meditate, sleep hygiene
