@@ -39,7 +39,6 @@ const About = () => {
         <div className="col col-right">
           <div className="img-wrapper">
             <img src="https://i.imgur.com/ltcgUq2.jpg" alt="photo of Sara" />
-            {/* <img src="https://i.imgur.com/plNb29g.jpg" alt="me" /> */}
           </div>
         </div>
       </section>
@@ -61,16 +60,16 @@ const Projects = () => {
             <div className="col projects-col col-left proj-one">
               <div className="project-img-title">
                 <a
-                  href="https://gentle-plains-61010.herokuapp.com/campgrounds"
+                  href="https://gentle-plains-61010.herokuapp.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <img
-                    src="https://i.imgur.com/YUu2TX7.png"
-                    alt="link to yelpcamp"
+                    src="https://i.imgur.com/s4b21qh.png"
+                    alt="link to Bangkok Streetheart"
                   />
                 </a>
-                <h3>YelpCamp</h3>
+                <h3>Bangkok Streetheart</h3>
               </div>
               <div className="text-wrapper">
                 <p>
