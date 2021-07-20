@@ -66,7 +66,7 @@ const Projects = () => {
                   rel="noreferrer"
                 >
                   <img
-                    src="https://i.imgur.com/s4b21qh.png"
+                    src="https://i.imgur.com/V2Cgbe0.png"
                     alt="link to Bangkok Streetheart"
                   />
                 </a>
