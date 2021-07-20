@@ -61,20 +61,20 @@ const Projects = () => {
             <div className="col projects-col col-left proj-one">
               <div className="project-img-title">
                 <a
-                  href="https://gentle-plains-61010.herokuapp.com/campgrounds"
+                  href="https://gentle-plains-61010.herokuapp.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <img
-                    src="https://i.imgur.com/YUu2TX7.png"
-                    alt="link to yelpcamp"
+                    src="https://i.imgur.com/s4b21qh.png"
+                    alt="link to Bangkok Streetheart"
                   />
                 </a>
-                <h3>YelpCamp</h3>
+                <h3>Bangkok Streetheart</h3>
               </div>
               <div className="text-wrapper">
                 <p>
-                  Fictional campground review aggregator, featuring user
+                  Bangkok street art photo aggregator, featuring user
                   authentication, authorization, and CRUD capability.
                 </p>
               </div>
