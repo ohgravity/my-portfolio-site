@@ -65,7 +65,7 @@ const Projects = () => {
                   rel="noreferrer"
                 >
                   <img
-                    src="https://i.imgur.com/s4b21qh.png"
+                    src="https://i.imgur.com/vVyWkZy.png"
                     alt="link to Bangkok Streetheart"
                   />
                 </a>
@@ -73,7 +73,7 @@ const Projects = () => {
               </div>
               <div className="text-wrapper">
                 <p>
-                  Fictional campground review aggregator, featuring user
+                  Bangkok street art photo aggregator, featuring user
                   authentication, authorization, and CRUD capability.
                 </p>
               </div>
