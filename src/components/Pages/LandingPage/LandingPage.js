@@ -74,8 +74,9 @@ const Projects = () => {
               </div>
               <div className="text-wrapper">
                 <p>
-                  Bangkok street art photo aggregator, featuring user
-                  authentication, authorization, and CRUD capability.
+                  Bangkok street art photo aggregator: a Node.js/MongoDB app
+                  featuring user authentication, authorization, and CRUD
+                  operations.
                 </p>
               </div>
             </div>
