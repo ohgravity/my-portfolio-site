@@ -412,6 +412,11 @@ label {
   color: #1fb1bb;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+}
+
 small {
   text-align: center;
 }
@@ -523,7 +528,7 @@ small {
     flex-direction: column;
     flex-wrap: no-wrap;
     max-width: 100%;
-    text-align: center;
+    text-align: left;
     padding-top: 5em;
   }
 

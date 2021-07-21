@@ -266,7 +266,7 @@ const LandingPage = () => {
             </li>
           </ul>
           <footer>
-            <small>© 2021. Sara Segel. All rights reserved.</small>
+            <small>© 2021 Sara Segel. All rights reserved.</small>
           </footer>
         </nav>
       </main>
