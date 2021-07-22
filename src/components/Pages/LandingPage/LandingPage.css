@@ -610,7 +610,7 @@ small {
 
   section {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: stretch;
     align-content: center;
     justify-content: center;
@@ -668,7 +668,7 @@ small {
 
   .projects-wrapper .col {
     flex: 1 1 100%;
-    flex-wrap: nowrap !important;
+    flex-wrap: nowrap;
     padding-top: 3vh;
     padding-bottom: 10vh;
     max-width: 100vw;
