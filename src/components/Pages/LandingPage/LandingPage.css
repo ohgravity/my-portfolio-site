@@ -131,6 +131,7 @@ h3 {
 .projects-col {
   justify-content: flex-start;
   align-items: center;
+  flex-wrap: wrap;
   flex: 1;
 }
 
@@ -628,7 +629,21 @@ small {
   }
 
   .col {
+    display: flex;
     flex: 1 1 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-height: 100%;
+    align-content: center;
+    justify-content: center;
+    /* border: 1px solid blue; */
+  }
+
+  .projects-col {
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex: 1;
   }
 
   .text-wrapper {
@@ -658,6 +673,10 @@ small {
 
   .project-wrapper .col-right {
     padding-top: 0;
+  }
+
+  .projects-col p {
+    margin-left: 1em;
   }
 
   .col-left {
