@@ -206,9 +206,11 @@ h3 {
 
 .project-img-title {
   display: flex;
+  justify-content: center;
   flex-direction: column;
   background: #def8f6;
   width: 80%;
+  height: 75%;
   border-radius: 10%;
   text-align: center;
   padding-top: 2em;
@@ -306,6 +308,10 @@ h3 {
   display: inline-block;
   text-align: left;
   /* border: 3px solid orange; */
+}
+
+footer {
+  padding-left: 4em;
 }
 
 /* ************** */

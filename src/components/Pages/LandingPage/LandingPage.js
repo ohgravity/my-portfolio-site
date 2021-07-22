@@ -39,7 +39,6 @@ const About = () => {
         <div className="col col-right">
           <div className="img-wrapper">
             <img src="https://i.imgur.com/ltcgUq2.jpg" alt="photo of Sara" />
-            {/* <img src="https://i.imgur.com/plNb29g.jpg" alt="me" /> */}
           </div>
         </div>
       </section>
@@ -66,7 +65,7 @@ const Projects = () => {
                   rel="noreferrer"
                 >
                   <img
-                    src="https://i.imgur.com/s4b21qh.png"
+                    src="https://i.imgur.com/vVyWkZy.png"
                     alt="link to Bangkok Streetheart"
                   />
                 </a>
