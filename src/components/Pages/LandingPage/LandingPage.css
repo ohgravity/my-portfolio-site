@@ -646,6 +646,10 @@ small {
     flex: 1;
   }
 
+  #project-column {
+    flex-wrap: nowrap;
+  }
+
   .text-wrapper {
     display: block;
     max-width: 90%;
