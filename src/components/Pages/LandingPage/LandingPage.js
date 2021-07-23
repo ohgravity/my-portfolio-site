@@ -57,10 +57,7 @@ const Projects = () => {
             </h2>
           </div>
           <div className="projects-wrapper">
-            <div
-              className="col projects-col col-left proj-one"
-              id="project-column"
-            >
+            <div className="col projects-col col-left proj-one">
               <div className="project-img-title">
                 <a
                   href="https://gentle-plains-61010.herokuapp.com/"

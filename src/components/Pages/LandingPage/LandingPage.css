@@ -628,7 +628,7 @@ small {
     line-height: 1.25em;
   }
 
-  .col {
+  /* .col {
     display: flex;
     flex: 1 1 100%;
     flex-wrap: wrap;
@@ -637,18 +637,25 @@ small {
     align-content: center;
     justify-content: center;
     /* border: 1px solid blue; */
-  }
+  /* } */
 
   .projects-col {
+    display: flex;
+    flex: 1 1 100%;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    max-height: 100%;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  /* .projects-col {
     justify-content: flex-start;
     align-items: center;
     flex-wrap: nowrap;
     flex: 1;
-  }
-
-  #project-column {
-    flex-wrap: nowrap;
-  }
+  } */
 
   .text-wrapper {
     display: block;
