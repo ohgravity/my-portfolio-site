@@ -430,14 +430,12 @@ small {
     max-width: 80%;
     display: flex;
     justify-content: center;
-    /* border: 1px solid red; */
   }
 
   .about .img-wrapper {
     max-width: 80%;
     display: flex;
     justify-content: center;
-    /* border: 1px solid red; */
   }
 
   .form-container {
