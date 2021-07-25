@@ -131,7 +131,7 @@ h3 {
 .projects-col {
   justify-content: flex-start;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   flex: 1;
 }
 
